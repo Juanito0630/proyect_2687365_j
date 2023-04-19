@@ -7,7 +7,15 @@
     <title>JSP - Hello World</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color: rgb(55, 169, 169);">
+    <header>
+        <h1 style="text-align: center;">Formulario Login UwU</h1>
+        <div class="container">
+        <nav>
+            <a href="">Inicio Sesion:</a>
+        </nav>
+        </div>
+    </header>
 <div class="container">
     <form class="" action="" method="">
         <label for="name">Nombres:</label><br>
@@ -23,10 +31,18 @@
         <input type="password" id="password" name="password" placeholder="ingrese su contraseña" autofocus
                required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}$"><br>
         <button class="btn btn-primary" type="submit">Enviar</button>
-        <h1><%= "Hello World!" %>
             <a href="hello-servlet">Hello Servlet</a>
     </form>
 </div>
+<br>
+<br>
+<br>
+<footer>
+    <u>
+    <h6 style="text-align: left;">Realizado por: Juan Rodriguez</h6>
+    <h6>Ficha: 2687365</h6>
+    </u>
+</footer>
 
 </h1>
 <br/>
